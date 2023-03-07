@@ -22,7 +22,7 @@ To compile, place the 'uncoupledDamage' directory in the `applications/utilities
 
 ### To run
 
-After compilation, simply run the command:
+Enter the directory of a given case and run the command:
 ```
 $ uncoupledDamage
 ```
