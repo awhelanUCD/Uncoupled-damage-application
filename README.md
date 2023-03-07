@@ -11,7 +11,7 @@ This is a post-processing application for OpenFOAM cases that calculates and wri
 - The negative stress tensor
 - The maximun principal stress
 
-The application currently provides the Bai and Wierzbicki (Doi - 10.1016/j.ijplas.2007.09.004) and an uncoupled version of the Lemaitre damage model with crack-closure effects (Teixeira. Ductile Damage Prediction in Sheet Metal Forming and Experimental Validation. PhD thesis). By default, the application is set to compile with uncupled Lemaitre damage model.
+The application currently provides the Bai and Wierzbicki (Doi - 10.1016/j.ijplas.2007.09.004) and an uncoupled version of the Lemaitre damage model with crack-closure effects (Teixeira. Ductile Damage Prediction in Sheet Metal Forming and Experimental Validation. PhD thesis). By default, the application is set to compile with the uncoupled Lemaitre damage model.
 
 ## Usage
 
