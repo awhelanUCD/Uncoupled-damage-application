@@ -1,0 +1,33 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:  3.0                                   |
+|   \\  /    A nd           | Web:         http://www.extend-project.de       |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      binary;
+    class       dictionary;
+    location    "system";
+    object      ductileDamageDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// Bai and Wierzbicki parameters
+D1            D1 [0 0 0 0 0 0 0] 1.5;
+D2            D2 [0 0 0 0 0 0 0] 1.395;
+D3            D3 [0 0 0 0 0 0 0] 0.7;
+D4            D4 [0 0 0 0 0 0 0] 1.579;
+D5            D5 [0 0 0 0 0 0 0] 1.5;
+D6            D6 [0 0 0 0 0 0 0] 1.395;
+
+// Lemaitre parameters
+s0            s0 [0 0 0 0 0 0 0] 1.5e6;
+b            b [0 0 0 0 0 0 0] 1.0;
+h            h [0 0 0 0 0 0 0] 0.2;
+
+
+
+// ************************************************************************* //
