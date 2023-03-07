@@ -1,4 +1,4 @@
-# uncoupledDamageApplication
+# Uncoupled damage application
 An OpenFOAM based application for calculating uncoupled damage evolution and fields related to this. (Only compatible with the bekaert-v2.0 toolbox) 
 
 ## What is this application?
